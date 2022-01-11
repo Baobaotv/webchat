@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <title>Login</title>
+      <link rel="stylesheet" href="/css/main.css" />
+      <link rel="stylesheet" th:href="@{/css/main.css}" />
+      
+      <!-- https://cdnjs.com/libraries/sockjs-client -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
+      <!-- https://cdnjs.com/libraries/stomp.js/ -->
+      <script  src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+   </head>
+   <body>
+      <div id="login-container">
+         <h1 class="title">Enter your username</h1>
+         <form id="loginForm" name="loginForm" method="POST">
+            <input type="text" name="username" />
+            <button type="submit">Login</button>
+         </form>
+      </div>
+  <script>
+
+  </script>          
+   </body>
+</html>
